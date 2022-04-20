@@ -12,7 +12,7 @@ class ClientPrefs {
 	public static var showFPS:Bool = #if android false #else true #end;
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
-	public static var noteSplashes:Bool = true;
+	public static var noteSplashes:Bool = false;
 	public static var lowQuality:Bool = false;
 	public static var framerate:Int = 60;
 	public static var cursing:Bool = true;
